@@ -1,0 +1,59 @@
+{
+  "Modules": [
+    {
+      "Module": "PTTConfigObject",
+      "Fields": {
+        "password": "guardhat2016",
+        "voicelayerAppName": "ghdemo",
+        "voicelayerAppKey": "45a25919b2e6a7170ac3caef84a9bd3a",
+        "voicelayerAppSecret": "a5664054be57163b2499ff73b72ce3d9"
+      }
+    },
+    {
+     "Module": "TelemetryObject",
+     "Fields": {
+       "mqttServer": "tcp://192.168.1.10:1883",
+       "username": "guardhat",
+       "password": "guardhat2016"
+     }
+   },
+    {
+      "Module": "TelephonyObject",
+      "Fields": {
+        "server": "192.168.1.11",
+        "destination": "200"
+      }
+    },
+    {
+      "Module": "UploadConfigObject",
+      "Fields": {
+        "server": "192.168.2.10",
+        "username": "guardhat",
+        "password": "guardhat2016"
+  	}
+    },
+    {
+      "Module": "MovingIBeacons",
+      "forceUpdate": true,
+      "Beacons": [{
+        "uuid": "fda50693-a4e2-4fb1-afcf-c6eb07647825",
+        "majorNum": 10001,
+        "minorNum": 19640,
+        "d1": 0,
+        "d2": 5,
+        "avgInterval": 10,
+        "N": 3
+      },
+      {
+          "uuid": "fda50693-a4e2-4fb1-afcf-c6eb07647825",
+          "majorNum": 10004,
+          "minorNum": 5178,
+          "d1": 0,
+          "d2": 10,
+          "avgInterval": 10,
+          "N": 3
+      }
+    ]
+    }
+  ]
+}
